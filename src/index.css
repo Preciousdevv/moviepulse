@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+/* light and dark mode  */
+.dark {
+    @apply bg-gray-900 text-white;
+}
+
+.dark input {
+    @apply bg-gray-800 text-white;
+}
+
+.dark textarea {
+    @apply bg-gray-800 text-white;
+}
